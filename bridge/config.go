@@ -1,8 +1,6 @@
 package bridge
 
 type Config struct {
-	// Bridge name
-	Name string `json:"name" yaml:"name"`
 	// Interface is the network interface name, e.g. bond0.3, or ens33.
 	Interface string `json:"interface" yaml:"interface"`
 	// PrivateNetwork is the host's private network to block against, e.g.
