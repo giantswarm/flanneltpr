@@ -33,9 +33,9 @@ func TestSpecYamlEncoding(t *testing.T) {
 					},
 				},
 				NTP: bridgespec.NTP{
-					Servers: []net.IP{
-						net.ParseIP("10.1.101.1"),
-						net.ParseIP("10.1.101.2"),
+					Servers: []string{
+						"10.1.101.1",
+						"10.1.101.2",
 					},
 				},
 			},
